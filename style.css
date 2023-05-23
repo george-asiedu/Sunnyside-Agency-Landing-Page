@@ -162,10 +162,48 @@ a {
     background: var(--Yellow);
 }
 
-/* .brand-design {
+.brand-design {
     position: relative;
-} */
+}
 
 .design-text {
-    
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    text-align: center;
+}
+
+.design-text h3 {
+    font-family: var(--Fraunces);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.design-text p {
+    color: var(--Dark-desaturated-cyan);
+    font-family: var(--Barlow);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.photo-text {
+    position: absolute;
+    top: 65%;
+    left: 62%;
+    text-align: center;
+}
+
+.photo-text h3 {
+    font-family: var(--Fraunces);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.photo-text p {
+    color: var(--Dark-blue);
+    font-family: var(--Barlow);
+    font-size: 15px;
+    line-height: 1.5;
 }
