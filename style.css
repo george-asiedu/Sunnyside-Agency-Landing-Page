@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700;900&display=swap');
+
+:root {
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Barlow: 'Barlow', sans-serif;
+    --Fraunces: 'Fraunces', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    padding: 2% 3%;
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.header-nav-logo {
+    color: var(--White);
+    font-family: var(--Barlow);
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.header-nav-links a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-transform: capitalize;
+    font-family: var(--Barlow);
+    font-size: 17px;
+    color: var(--White);
+    opacity: 0.8;
+}
+
+.header-nav-links a:hover {
+    color: var(--Very-dark-grayish-blue);
+}
+
+.header-nav-links a:active {
+    color: var(--Very-dark-grayish-blue);
+    text-decoration: underline;
+}
+
+.header-nav-links .contact {
+    background: var(--White);
+    color: var(--Black);
+    text-transform: uppercase;
+    font-family: var(--Fraunces);
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 25px;
+}
+
+.header-nav-links .contact:hover {
+    background: var(--Grayish-blue);
+    color: var(--White);
+}
+
+.header h1 {
+    text-align: center;
+    color: var(--White);
+    font-family: var(--Fraunces);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.header img {
+    position: absolute;
+    top: 45%;
+    left: 49%;
+}
