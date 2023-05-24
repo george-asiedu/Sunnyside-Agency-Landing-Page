@@ -131,7 +131,7 @@ a {
 
 .brand-text h3 {
     font-family: var(--Fraunces);
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 900;
     margin-bottom: 25px;
 }
@@ -332,3 +332,5 @@ footer h5 {
 .footer-socials img:hover {
     color: var(--White);
 }
+
+/* Media Queries */
