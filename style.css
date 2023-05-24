@@ -267,3 +267,39 @@ a {
     font-size: 14px;
     color: var(--Grayish-blue);
 }
+
+.footer-images {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.footer-images img {
+    width: 25%
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: var(--Dark-moderate-cyan);
+}
+
+footer h5 {
+    font-family: var(--Barlow);
+    color: var(--Dark-desaturated-cyan);
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-nav a {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--Barlow);
+    font-size: 16px;
+    color: var(--Dark-desaturated-cyan);
+    padding: 10px 14px;
+}
